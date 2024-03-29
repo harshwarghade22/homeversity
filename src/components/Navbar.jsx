@@ -16,11 +16,13 @@ function Navbar() {
         <a href="/roomates">
           <div className="hover:text-black text-sm">Mates</div>
         </a>
-        <a href="">
-          <div className="hover:text-black text-sm">Rent More</div>
-        </a>
-        <a href="">
+        
+        <a href="/services">
           <div className="hover:text-black text-sm">Services</div>
+        </a>
+
+        <a href="/about">
+          <div className="hover:text-black text-sm">About us</div>
         </a>
       </div>
       <div className="hidden md:block">

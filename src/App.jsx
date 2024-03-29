@@ -9,6 +9,8 @@ import Home from "./Home";
 import RoomatesListing from "./components/RoomatesListing";
 import Map from "./components/Map";
 import MateDetails from "./components/mateDetails/MateDetails";
+import AboutUs from "./components/About";
+import Service from "./components/Services";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <AboutUs />,
+  },
+  {
+    path: "/services",
+    element: <Service />,
   },
   {
     path: "/details",
