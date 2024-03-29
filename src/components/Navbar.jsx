@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="max-w-7xl px-4 mx-auto h-20 border-b-black flex justify-between items-center ">
       <div className=" text-3xl font-gilroy_semi_bol font-semibold">
-        Conti<span className="text-orange-400">new...</span>
+        Home<span className="text-orange-400">versity...</span>
       </div>
       <div className="hidden md:flex justify-between gap-8 text-gray-400 font-gilroy_medium">
         <a href="/">
