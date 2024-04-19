@@ -7,6 +7,7 @@ import PriceSelect from "./price-select/PriceSelect.jsx";
 import FilterBtn from "./filter-btn/FilterBtn.jsx";
 import { Link } from "react-router-dom";
 
+
 function Hero() {
   const [listedProperties, setListedProperties] = useState(data);
   const [filterData, setFilterData] = useState(data);
